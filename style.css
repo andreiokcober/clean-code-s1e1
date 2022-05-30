@@ -16,9 +16,6 @@ img {
 .matrix-information {
   font-family: fantasy, cursive;
 }
-@media (max-width:768px) {
-  .matrix { text-align: center;}
-}
 .main {
   display: block;
   width: 500px;
@@ -133,3 +130,11 @@ input[type="checkbox"] {
 .edit-label{
   display: none;
 }
+@media (max-width:768px) {
+
+  .matrix {
+    text-align: center;
+  }
+
+}
+
