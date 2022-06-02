@@ -29,19 +29,19 @@ img {
 .task-row-wrapper {
   display: flex;
 }
-ul {
+.item-ul {
   margin: 0;
   padding: 0px;
 }
-li,
-h3 {
+.item-li,
+.item-h3 {
   list-style: none;
 }
-input,
-button {
+.item-input,
+.item-button {
   outline: none;
 }
-button {
+.item-button {
   background: none;
   border: 0px;
   color: #888;
@@ -50,11 +50,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.item-button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
+.item-h3,
 .new-task {
   display: block;
   margin: 0 0 20px;
@@ -87,7 +87,7 @@ h3,
   width: 318px;
 }
 /* Task list */
-li {
+.item-li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -95,7 +95,7 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-.tem-li > * {
+.item-li > * {
   vertical-align: middle;
 }
 .item-type-checkbox{
